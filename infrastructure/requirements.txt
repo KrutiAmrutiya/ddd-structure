@@ -1,0 +1,5 @@
+django
+djangorestframework
+flask_restful
+psycopg2-binary
+python-dotenv
