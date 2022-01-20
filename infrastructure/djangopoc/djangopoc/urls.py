@@ -18,9 +18,11 @@ from django.urls import path
 
 from task.views import task_list
 from todo.views import todo_list
+from accounts.views import register
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", task_list),
     path("todo/", todo_list),
+    path("register/", register),
 ]

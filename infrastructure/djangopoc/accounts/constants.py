@@ -1,0 +1,5 @@
+MALE = "M"
+FEMALE = "F"
+LGBTQPLUS = "L"
+
+GENDER_CHOICES = [(MALE, "Male"), (FEMALE, "Female"), (LGBTQPLUS, "LGBTQ+")]
