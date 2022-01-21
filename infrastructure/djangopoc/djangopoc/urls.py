@@ -18,9 +18,19 @@ from django.urls import path
 
 from task.views import task_list
 from todo.views import todo_list
+<<<<<<< Updated upstream
+=======
+from accounts.views import register
+from accounts.views import login
+>>>>>>> Stashed changes
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", task_list),
     path("todo/", todo_list),
+<<<<<<< Updated upstream
+=======
+    path("register/", register),
+    path("login/", login),
+>>>>>>> Stashed changes
 ]
